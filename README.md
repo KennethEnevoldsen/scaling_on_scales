@@ -1,3 +1,7 @@
+
+**Note**: This repository is not actively maintained, but it is used to publish the pypi package to allow us to maintain the model within mteb (e.g. to solve issues such as [4777](https://github.com/embeddings-benchmark/mteb/pull/4777).
+
+
 # S<sup>2</sup>-Wrapper
 
 This repo contains the Pytorch implementation of S<sup>2</sup>-Wrapper, a simple mechanism that enables multi-scale feature extraction on *any vision model*.
