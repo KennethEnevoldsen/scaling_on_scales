@@ -3,7 +3,7 @@ requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.backends.legacy:build"
 
 [project]
-name = "s2wrapper"
+name = "scaling-on-scales"
 version = "0.1.0"
 description = "A simple mechanism to extract multi-scale features using any vision model"
 readme = "README.md"
