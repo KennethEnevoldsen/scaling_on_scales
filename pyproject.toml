@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "s2wrapper"
+version = "0.1.0"
+description = "A simple mechanism to extract multi-scale features using any vision model"
+readme = "README.md"
+license = { file = "LICENSE.md" }
+authors = [
+    { name = "Baifeng Shi", email = "baifeng_shi@berkeley.edu" },
+    { name = "Ziyang Wu" },
+    { name = "Maolin Mao" },
+    { name = "Xin Wang" },
+    { name = "Trevor Darrell" },
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["einops"]
+
+[project.urls]
+Homepage = "https://github.com/KennethEnevoldsen/scaling_on_scales"
+Source = "https://github.com/KennethEnevoldsen/scaling_on_scales"
